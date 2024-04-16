@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={`
       flex justify-center items-center h-screen
-      bg-gradient-to-r from-purple-500 to-black
+      bg-gradient-to-r from-sky-950 via-blue-900 to-blue-900
       text-white
     `}>
       <Layout titulo="Cadastro Simples">

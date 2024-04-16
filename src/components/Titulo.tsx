@@ -1,10 +1,10 @@
 export default function Titulo(props:any){
      return (
           <div className="flex flex-col justify-center">
-               <h1 className="px-5 py-2 text-4xl">
+               <h1 className="px-6 py-4 text-4xl font-medium">
                     {props.children}
                </h1>
-               <hr className="border-2 border-purple-500"/>
+               <hr className="border-2 border-blue-800"/>
           </div>
      )
 }
