@@ -1,8 +1,17 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js,tsx}"],
+import { defineConfig } from 'tailwindcss';
+
+export default defineConfig({
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
+  safelist: [
+    "bg-*",
+    "to-*",
+    "from-*",
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
-};
+});
